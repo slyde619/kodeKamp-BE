@@ -1,0 +1,35 @@
+String Data Type
+A String is used to represent text. It is a sequence of characters (letters, numbers, or symbols) wrapped in quotes, like "Hello" or '123'.
+
+3 Common Methods:
+
+toUpperCase(): Changes all letters in the string to capital letters.
+
+Example: "hi".toUpperCase() becomes "HI".
+
+includes(): Checks if the string contains a specific word or letter. It returns true or false.
+
+Example: "Apple".includes("A") is true.
+
+split(): Breaks a string into an array of smaller pieces based on a character you choose.
+
+Example: "A-B-C".split("-") becomes ["A", "B", "C"].
+
+=========================================================================
+
+Number Data Type
+The Number data type represents numeric values. Unlike some other languages, JavaScript uses one type for both whole numbers (integers like 10) and decimals (floats like 10.5).
+
+3 Common Methods:
+
+toFixed(): Rounds a number to a specific amount of decimal places and turns it into a string.
+
+Example: 5.678.toFixed(2) becomes "5.68".
+
+toString(): Converts the number into a string data type.
+
+Example: 100.toString() becomes "100".
+
+Number.isInteger(): Checks if the number is a whole number (no decimals). It returns true or false.
+
+Example: Number.isInteger(4.5) is false.
